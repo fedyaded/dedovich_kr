@@ -70,7 +70,7 @@ if __name__ == '__main__':
     tomato_bush = TomatoBush(2)
     gardener = Gardener("Иван", tomato_bush)
     gardener.work()
-    gardener.work()
     gardener.harvest()
+    gardener.work()
     gardener.work()
     gardener.harvest()
