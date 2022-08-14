@@ -67,8 +67,8 @@ class Gardener:
 
 if __name__ == '__main__':
     Gardener.knowledge_base()
-    great_tomato_bush = TomatoBush(2)
-    gardener = Gardener("Иван", great_tomato_bush)
+    tomato_bush = TomatoBush(2)
+    gardener = Gardener("Иван", tomato_bush)
     gardener.work()
     gardener.work()
     gardener.harvest()
